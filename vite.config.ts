@@ -19,12 +19,7 @@ export default defineConfig({
       plugins: [tailwindcss, autoprefixer],
     },
     preprocessorOptions: {
-      scss: {
-        additionalData: `
-          @import "@/assets/base.css";
-          @import "@/assets/main.css";
-        `,
-      },
+      scss: {},
     },
   },
 })

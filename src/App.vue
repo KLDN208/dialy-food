@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import { RouterView } from 'vue-router'
-</script>
-
 <template>
-  <RouterView />
+  <LayoutWrapper />
 </template>
+
+<script setup lang="ts">
+import LayoutWrapper from '@/components/Layout/LayoutWrapper.vue'
+</script>
 
 <style scoped></style>
